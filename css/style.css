@@ -41,3 +41,8 @@ h2 {
 .necklace {
   border: 5px rgb(152,173,166) solid;
 }
+
+.copyright {
+  font-size: 12px;
+  text-align: right;
+}
