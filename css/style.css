@@ -11,10 +11,64 @@ body {
 }
 
 .wrapper {
-	width: 960px;
+	width: 68%;
 	margin: 0 auto;
 	background: #fff;
 	padding: 0 45px 20px;
 }
 
 /* Write all remaining styles here */
+
+h1{
+	font-size: 5em;
+	font-weight:normal;
+	font-family: 'Baskervile', serif;
+	color:#9AADA7;
+	margin-top: 0px;
+	padding-bottom:1%;
+	border-bottom: 1px solid #ccc;
+	margin-bottom:0.5%;
+}
+
+h1 + img{
+	width:100%;
+	box-sizing:border-box;
+	border: 4px solid #9AADA7;
+}
+
+h2{
+	color:#6F7F7A;
+	font-size: 2em;
+}
+
+p{
+	color:#555;
+}
+
+p a{
+	color:#1783BB;
+	text-decoration: none;
+}
+
+p a:hover{
+	text-decoration: underline;
+}
+
+#press{
+	display:grid;
+	grid-template-columns: repeat(4, 1fr);
+}
+
+.logo_block img{
+	grid-auto-flow: column;
+	/* box-sizing: border-box; */
+	margin: 0.5%;
+	border: 5px solid #cccccc;
+	padding: 1px;
+	align-content: center;
+}
+
+footer p{
+	text-align: right;
+	font-size: 0.8em;
+}
